@@ -3,6 +3,11 @@
     src: url(/assets/fonts/Open_Sans/OpenSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: LuckiestGuy-Regular;
+    src: url(/assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -15,8 +20,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 
-    
-
     @media screen and (max-width: 650px) {
         background-image: url(/assets/images/header-background-mobile.png);
         background-repeat: no-repeat;
@@ -27,10 +30,20 @@ header {
 
 h1 {
     margin: 0;
+    font-family: LuckiestGuy-Regular;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 100%;
+    align-self: flex-start;
+    width: 70%;
 }
 
 p {
     margin: 0;
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ffffff;
 }
 
 img {
@@ -43,7 +56,6 @@ button {
     border-radius: 28px;
     width: 90%;
     height: 54px;
-    justify-self: center;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -51,3 +63,15 @@ button {
     font-size: 16px;
 }
 
+.intro {
+    padding: 69px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+#abrir-no-navegador {
+    color: #FFFFFF;
+    background-color: #23272A;
+}
