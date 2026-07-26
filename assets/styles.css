@@ -133,12 +133,12 @@ footer {
     .intro {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
         grid-template-areas: 
-        ". h1 h1 h1 h1 h1 ."
-        "p p p p p p p"
-        ". dw dw ab ab ab ."
+        ". h1 h1 h1 h1 h1 . ."
+        "p p p p p p p p"
+        ". dw dw ab ab ab ab ."
         ;
 
         justify-items: center;
@@ -147,6 +147,7 @@ footer {
         row-gap: 24px;
         column-gap: 0px;
     }
+
 
     h1 {
         font-size: 56px;
